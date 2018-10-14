@@ -210,17 +210,28 @@ header{
     height: 100px;
     width: auto;
     float: left;
-
 }
 
+.logo-black{ 
+    display:none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin:5px 0; 
+}
+
+.sticky .logo{ display:none; }
+.sticky .logo-black { display:block; }
 .main-nav{
     float: right;
     list-style: none;
 }
 
+.main-nav{ margin-top:15px; }
+
 .main-nav li{
     display: inline-block;
-    margin: 40px;
+    margin: 0px 40px 10px 10px;
 }
 
 .main-nav li a:link,
@@ -237,6 +248,21 @@ header{
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: rgba(255,255,255,0.98);
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    padding: 15px 0;
+    color: #555;
 }
 
 /*-------------------------------*/

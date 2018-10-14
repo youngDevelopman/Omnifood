@@ -16,9 +16,10 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="sticky">
             <div class="row">
                 <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo" />
+                <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black" />
                 <ul class="main-nav">
                     <li><a href="#">Food delivery</a></li>
                     <li><a href="#">How it works</a></li>
@@ -372,12 +373,12 @@
                         <label for="find-us">How did you find us?</label>
                     </div>
                     <div class="col span-2-of-3">
-                       <select name="find-us" id="find-us">
-                           <option value="friends" selected>Friends</option>
-                           <option value="search">Search engine</option>
-                           <option value="ad">Advertisment</option>
-                           <option value="other">Other</option>
-                       </select>
+                        <select name="find-us" id="find-us">
+                            <option value="friends" selected>Friends</option>
+                            <option value="search">Search engine</option>
+                            <option value="ad">Advertisment</option>
+                            <option value="other">Other</option>
+                        </select>
                     </div>
                 </div>
                 <div class="row">
@@ -401,7 +402,7 @@
                         <label>&nbsp;</label>
                     </div>
                     <div class="col span-2-of-3">
-                       <input type="submit" value="Send it!">
+                        <input type="submit" value="Send it!">
                     </div>
                 </div>
             </form>
@@ -435,7 +436,8 @@
         </div>
 
     </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="resources/js/scripts.js"></script>
 </body>
 
 </html>
