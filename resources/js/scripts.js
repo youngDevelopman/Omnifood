@@ -77,4 +77,16 @@ $(document).ready(function () {
             $(".js--wp-4").addClass('animated pulse');
         },
         {offset: '50%'});
+
+        $(".js--nav-icon").click(function(){
+            var nav = $(".js--main-nav");
+            var icon = $(".js--nav-icon i");
+            
+            if(icon.hasClass("ion-ios-menu")){
+                icon.toggleClass("ion-ios-menu ion-md-close");
+            }else{
+                icon.toggleClass("ion-md-close ion-ios-menu");
+            }
+            nav.slideToggle(200);
+        })
 })

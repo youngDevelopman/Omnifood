@@ -220,6 +220,14 @@ header{
     margin:5px 0; 
 }
 
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display:none;
+}
+
+
 .sticky .logo{ display:none; }
 .sticky .logo-black { display:block; }
 .main-nav{
@@ -232,6 +240,11 @@ header{
 .main-nav li{
     display: inline-block;
     margin: 0px 40px 10px 10px;
+}
+
+.mobile-nav-icon i{
+    font-size: 200%;
+    color: White;
 }
 
 .main-nav li a:link,
